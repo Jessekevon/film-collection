@@ -1,4 +1,5 @@
 import './globals.css'
+import './public/css/style.css'; // Import the compiled CSS
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 

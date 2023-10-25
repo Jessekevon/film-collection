@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  font-weight: 300; // You can specify various font weights as needed
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+  font-weight: 400; // You can specify various font weights as needed
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-feature-settings: 'clig' off, 'liga' off;
+}

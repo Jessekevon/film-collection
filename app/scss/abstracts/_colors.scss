@@ -1,0 +1,32 @@
+// Primary Colors
+$color-green-primary: #C5EAB2;
+$color-green-secondary: #E6F2E9;
+$color-green-tertiary: #E7F8DF;
+$color-green-quaternary: #769C80;
+// Secondary Color
+$color-secondary: #F4F3E8;
+
+// Add utility classes as needed (.nm - nanny marketing)
+.nm-bg-green-primary {
+  background-color: $color-green-primary;
+}
+
+.nm-bg-green-secondary {
+  background-color: $color-green-secondary;
+}
+
+.nm-bg-green-tertiary {
+  background-color: $color-green-tertiary;
+}
+
+.nm-bg-green-quaternary {
+  background-color: $color-green-quaternary;
+}
+
+.nm-bg-secondary {
+  background-color: $color-secondary;
+}
+
+.nm-green-quaternary {
+  color: $color-green-quaternary;
+}

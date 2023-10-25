@@ -1,0 +1,27 @@
+// app/scss/components/_buttons.scss
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+.left-button, .right-button {
+  display: flex;
+  width: 307px; /* Adjust width as needed */
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid;
+}
+
+.left-button {
+  border-radius: 50px 0 0 50px;
+}
+
+.right-button {
+  border-radius: 0 50px 50px 0;
+  border: 1px solid var(--stroke_2, #C3B5B5);
+}

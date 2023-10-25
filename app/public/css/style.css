@@ -1,0 +1,79 @@
+.nm-bg-green-primary {
+  background-color: #C5EAB2;
+}
+
+.nm-bg-green-secondary {
+  background-color: #E6F2E9;
+}
+
+.nm-bg-green-tertiary {
+  background-color: #E7F8DF;
+}
+
+.nm-bg-green-quaternary {
+  background-color: #769C80;
+}
+
+.nm-bg-secondary {
+  background-color: #F4F3E8;
+}
+
+.nm-green-quaternary {
+  color: #769C80;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+.left-button, .right-button {
+  display: flex;
+  width: 307px; /* Adjust width as needed */
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid;
+}
+
+.left-button {
+  border-radius: 50px 0 0 50px;
+}
+
+.right-button {
+  border-radius: 0 50px 50px 0;
+  border: 1px solid var(--stroke_2, #C3B5B5);
+}
+
+.nm-dash {
+  width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const path = require('path');
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['i.imgur.com', 'images.unsplash.com'],
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'sass')],
+  },
+};
