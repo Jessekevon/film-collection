@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import SearchMovies from './components/SearchMovies'; // Import the SearchMovies component
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <SearchMovies />
         </div>
       </div>
+      <Footer />
     </main>
   )
 }

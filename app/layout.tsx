@@ -1,9 +1,8 @@
-import './globals.css'
-import './public/css/style.css'; // Import the compiled CSS
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// layout.tsx
 
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from 'next'
+import './globals.css';
+import './public/css/style.css'; // Import the compiled CSS
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,10 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
-      <main className="mt-20">
-        {children}
-      </main>
-    </div>
-  );
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
 }
