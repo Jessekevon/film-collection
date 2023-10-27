@@ -1,5 +1,8 @@
 import Navbar from './components/Navbar';
-import SearchMovies from './components/SearchMovies'; // Import the SearchMovies component
+import SearchMovies from './components/SearchMovies'; 
+import CurrentlyPlayingMovies from './components/CurrentlyPlayingMovies';
+// import NowStreamingMovies from './components/NowStreamingMovies'; // Import the component
+
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -12,6 +15,8 @@ export default function Home() {
           <SearchMovies />
         </div>
       </div>
+      <CurrentlyPlayingMovies />
+      {/* <NowStreamingMovies /> */}
       <Footer />
     </main>
   )
