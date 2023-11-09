@@ -10,6 +10,9 @@ const Navbar: React.FC = () => {
         <Link href="/collection" legacyBehavior>
           <a className="ml-4">Collection</a>
         </Link>
+        <Link href="/releases" legacyBehavior>
+          <a className="ml-4">4K Releases</a>
+        </Link>
       </div>
     </nav>
   );
