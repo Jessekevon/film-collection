@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Hero: React.FC = () => {
   const [backgroundImage, setBackgroundImage] = useState<string>('');
@@ -9,9 +9,9 @@ const Hero: React.FC = () => {
   };
 
   const listImages = {
-    lists: 'https://i.imgur.com/DVeoQmr.png', // Replace with your lists image dataURL
-    collection: 'https://i.imgur.com/KrBBFNi.png', // Replace with your collection image dataURL
-    about: 'https://i.imgur.com/JMpi91n.png', // Replace with your about image dataURL
+    lists: 'https://i.imgur.com/DVeoQmr.png',
+    collection: 'https://i.imgur.com/KrBBFNi.png',
+    about: 'https://i.imgur.com/JMpi91n.png',
   };
 
   return (

@@ -1,5 +1,5 @@
 // layout.tsx
-
+import React from 'react';
 import type { Metadata } from 'next'
 import './globals.css';
 import './public/css/style.css'; // Import the compiled CSS
