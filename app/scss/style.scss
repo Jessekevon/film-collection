@@ -8,7 +8,14 @@
 // @import 'vendors/index';
 
 .hero {
-  min-height: calc(100vh - 60px);
+  min-height: calc(700px - 60px);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 10;
 }
 
 .nm-dash {

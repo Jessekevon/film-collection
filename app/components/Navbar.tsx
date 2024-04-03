@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-gray-800 p-4 text-white w-full">
+    <nav className="bg-black-800 p-4 text-white w-full">
       <div className="container mx-auto">
         <Link href="/" legacyBehavior>
           <a className="text-xl font-bold">Home</a>

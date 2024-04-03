@@ -19,8 +19,9 @@ const Hero: React.FC = () => {
       className="hero bg-gray-800 relative overflow-hidden"
       style={{ backgroundImage: `url(${backgroundImage || 'https://i.imgur.com/72Y8NVr.png'})`, backgroundSize: 'cover', backgroundPosition: 'center center'  }}
     >
+    <div className="hero-overlay"></div>
       <div className="mx-auto flex items-center h-full">
-        <ul className="list-none text-white">
+        <ul className="list-none text-white z-10">
           <li>
             <a href="#" onMouseOver={() => handleListItemHover(listImages.lists)}>
               Lists
