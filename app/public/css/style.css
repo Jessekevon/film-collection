@@ -72,6 +72,10 @@ p {
   border: 1px solid var(--stroke_2, #C3B5B5);
 }
 
+.hero {
+  min-height: calc(100vh - 60px);
+}
+
 .nm-dash {
   width: 70%;
 }

@@ -7,6 +7,10 @@
 // @import 'themes/index';
 // @import 'vendors/index';
 
+.hero {
+  min-height: calc(100vh - 60px);
+}
+
 .nm-dash {
   width: 70%;
 }
