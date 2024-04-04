@@ -7,15 +7,33 @@
 // @import 'themes/index';
 // @import 'vendors/index';
 
+@font-face {
+	font-family: 'ITCSerifGothicBlackRegular';
+	src: url('../fonts/ITCSerifGothicBlackRegular.otf');
+  }
+
+  // app/public/fonts/ITCSerifGothicBlackRegular.otf
+
+@font-face {
+	font-family: 'ITCSerifGothicStdBlack';
+	src: url('../fonts/ITCSerifGothicStdBlack.otf');
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'ITCSerifGothicStdBlack';
+}
+
 .hero {
-  min-height: calc(700px - 60px);
+  min-height: calc(100vh - 60px);
+  font-family: 'ITCSerifGothicStdBlack';
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.35);
-  z-index: 10;
 }
 
 .nm-dash {

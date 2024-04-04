@@ -9,19 +9,19 @@ const Hero: React.FC = () => {
   };
 
   const listImages = {
-    lists: 'https://i.imgur.com/DVeoQmr.png',
+    lists: 'https://i.imgur.com/JMpi91n.png',
     collection: 'https://i.imgur.com/KrBBFNi.png',
-    about: 'https://i.imgur.com/JMpi91n.png',
+    about: 'https://i.imgur.com/72Y8NVr.png',
   };
 
   return (
     <section
-      className="hero bg-gray-800 relative overflow-hidden"
-      style={{ backgroundImage: `url(${backgroundImage || 'https://i.imgur.com/72Y8NVr.png'})`, backgroundSize: 'cover', backgroundPosition: 'center center'  }}
+      className="hero flex items-center bg-gray-800 overflow-hidden"
+      style={{ backgroundImage: `url(${backgroundImage || 'https://i.imgur.com/DVeoQmr.png'})`, backgroundSize: 'cover', backgroundPosition: 'center center'  }}
     >
-    <div className="hero-overlay"></div>
-      <div className="mx-auto flex items-center h-full">
-        <ul className="list-none text-white z-10">
+      <div className="hero-overlay z-5"></div>
+      <div className="flex items-center h-full">
+        <ul className="list-none pl-20 text-8xl text-white z-10 list-none text-white">
           <li>
             <a href="#" onMouseOver={() => handleListItemHover(listImages.lists)}>
               Lists
@@ -35,6 +35,11 @@ const Hero: React.FC = () => {
           <li>
             <a href="#" onMouseOver={() => handleListItemHover(listImages.about)}>
               About
+            </a>
+          </li>
+          <li>
+            <a href="#" onMouseOver={() => handleListItemHover(listImages.about)}>
+              Search
             </a>
           </li>
         </ul>

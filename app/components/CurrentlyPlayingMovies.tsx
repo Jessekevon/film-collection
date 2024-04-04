@@ -23,7 +23,7 @@ const CurrentlyPlayingMovies: React.FC = () => {
 
         if (data.results) {
           const moviesData = data.results
-            .slice(0, 12) // Get only the first 12 movies
+            .slice(0, 6) // Get only the first 12 movies
             .map((movie: any) => ({
               id: movie.id,
               title: movie.title,
@@ -42,7 +42,7 @@ const CurrentlyPlayingMovies: React.FC = () => {
 
   return (
     <div className="container mx-auto my-8">
-      <h2 className="text-2xl font-bold mb-4">Currently Playing</h2>
+      <h2 className="text-2xl my-20 text-white font-bold mb-4">Now Playing</h2>
       <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
         {movies.map((movie) => (
         <Link href={`/films/${movie.id}/`} key={movie.id} legacyBehavior>

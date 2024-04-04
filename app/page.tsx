@@ -9,9 +9,7 @@ export default function Home() {
   return (
     <main className="bg-black">
       <Navbar />
-      <div className="bg-gray-900">
-          <Hero />
-      </div>
+      <Hero />
       <CurrentlyPlayingMovies />
       {/* <NowStreamingMovies /> */}
       <Footer />

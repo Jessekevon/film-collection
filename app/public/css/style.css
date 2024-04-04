@@ -72,15 +72,29 @@ p {
   border: 1px solid var(--stroke_2, #C3B5B5);
 }
 
+@font-face {
+  font-family: "ITCSerifGothicBlackRegular";
+  src: url("../fonts/ITCSerifGothicBlackRegular.otf");
+}
+@font-face {
+  font-family: "ITCSerifGothicStdBlack";
+  src: url("../fonts/ITCSerifGothicStdBlack.otf");
+}
+h1,
+h2,
+h3 {
+  font-family: "ITCSerifGothicStdBlack";
+}
+
 .hero {
-  min-height: 640px;
+  min-height: calc(100vh - 60px);
+  font-family: "ITCSerifGothicStdBlack";
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.35);
-  z-index: 10;
 }
 
 .nm-dash {
