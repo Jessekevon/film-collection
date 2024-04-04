@@ -20,26 +20,21 @@ const Hero: React.FC = () => {
       style={{ backgroundImage: `url(${backgroundImage || 'https://i.imgur.com/DVeoQmr.png'})`, backgroundSize: 'cover', backgroundPosition: 'center center'  }}
     >
       <div className="hero-overlay z-5"></div>
-      <div className="flex items-center h-full">
+      <div className="relative flex items-center h-full">
         <ul className="list-none pl-20 text-8xl text-white z-10 list-none text-white">
           <li>
-            <a href="#" onMouseOver={() => handleListItemHover(listImages.lists)}>
+            <a className="transition hover:opacity-75" href="/lists" onMouseOver={() => handleListItemHover(listImages.lists)}>
               Lists
             </a>
           </li>
           <li>
-            <a href="#" onMouseOver={() => handleListItemHover(listImages.collection)}>
+            <a className="transition hover:opacity-75" href="/collection" onMouseOver={() => handleListItemHover(listImages.collection)}>
               Collection
             </a>
           </li>
           <li>
-            <a href="#" onMouseOver={() => handleListItemHover(listImages.about)}>
+            <a className="transition hover:opacity-75" href="/about" onMouseOver={() => handleListItemHover(listImages.about)}>
               About
-            </a>
-          </li>
-          <li>
-            <a href="#" onMouseOver={() => handleListItemHover(listImages.about)}>
-              Search
             </a>
           </li>
         </ul>
