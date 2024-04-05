@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import BarCodeLookup from './components/BarCodeLookup';
 import CurrentlyPlayingMovies from './components/CurrentlyPlayingMovies';
 // import NowStreamingMovies from './components/NowStreamingMovies'; // Import the component
 
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="bg-black">
       <Navbar />
       <Hero />
+      <BarCodeLookup />
       <CurrentlyPlayingMovies />
       {/* <NowStreamingMovies /> */}
       <Footer />

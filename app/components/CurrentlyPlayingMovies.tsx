@@ -23,7 +23,7 @@ const CurrentlyPlayingMovies: React.FC = () => {
 
         if (data.results) {
           const moviesData = data.results
-            .slice(0, 8) // Get only the first 12 movies
+            .slice(0, 16) // Get only the first 12 movies
             .map((movie: any) => ({
               id: movie.id,
               title: movie.title,

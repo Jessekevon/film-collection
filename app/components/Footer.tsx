@@ -34,12 +34,6 @@ const Footer: React.FC = () => {
                   HR Consulting
                 </a>
               </li>
-
-              <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
-                  SEO Optimisation
-                </a>
-              </li>
             </ul>
           </div>
 
